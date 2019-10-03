@@ -1,50 +1,24 @@
 // Will be the navigation header
 
 import React from 'react';
+import {Home, Mac, IPad, IPhone, 
+        Watch, Tv, Music, Support, 
+        SearchBar, ShoppingCart} from './SubNav.js';
+import {Route} from 'react-router-dom';
 
 export default function NavWrapper(props) {
   return (
     <div className="nav-wrapper">
-
-      <Link to="/">
-        <img src="https://www.apple.com/ac/globalnav/4/en_US/images/globalnav/apple/image_large.svg" />
-      </Link>
-
-      <Link to="/mac">
-        Mac
-      </Link>
-
-      <Link to="/ipad">
-        iPad
-      </Link>
-
-      <Link to="/iphone">
-        iPhone
-      </Link>
-
-      <Link to="/watch">
-        Watch
-      </Link>
-
-      <Link to="/tv">
-        TV
-      </Link>
-
-      <Link to="/music">
-        Music
-      </Link>
-
-      <Link to="/support">
-        Support
-      </Link>
-
-      <Link to="/search-bar">
-        <img src="https://www.apple.com/ac/globalnav/4/en_US/images/globalnav/search/image_large.svg" />
-      </Link>
-
-      <Link to="/shopping-cart">
-        <img src="https://www.apple.com/ac/globalnav/4/en_US/images/globalnav/bag/image_large.svg" />
-      </Link>
+      <Route exact path="/" component={Home} />
+      <Route path="/mac" component={Mac} />
+      <Route path="/ipad" component={IPad} />
+      <Route path="/iphone" component={IPhone} />
+      <Route path="/watch" component={Watch} />
+      <Route path="/tv" component={Tv} />
+      <Route path="/music" component={Music} />
+      <Route path="/support" component={Support} />
+      <Route path="/search-bar" component={SearchBar} />
+      <Route path="/shopping-cart" component={ShoppingCart} />
     </div>
   );
 }

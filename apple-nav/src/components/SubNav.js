@@ -12,7 +12,10 @@ export function Home() {
 
 export function Mac() {
   return (
-    <div className="sub-nav"></div>
+    <div className="sub-nav">
+      <img src="https://www.apple.com/v/mac/home/ai/images/familybrowser/macbookair__ej39du0gz4uq_large.svg" />
+      <a href="#">MacBook Air</a>
+    </div>
   );
 }
 
