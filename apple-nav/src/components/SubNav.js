@@ -123,7 +123,40 @@ export function IPhone() {
 
 export function Watch() {
   return (
-    <div className="sub-nav"></div>
+    <div className="sub-nav">
+      <img src="https://www.apple.com/v/watch/home/u/images/overview/watch_nav_series_2__bk595ih4bliu_large.svg" />
+      <a href="#">Apple Watch<br />Series 5</a>
+
+      <img src="https://www.apple.com/v/watch/home/u/images/overview/watch_nav_nike__mkjgkrrlq2ye_large.svg" />
+      <a href="#">Apple Watch<br />Nike</a>
+      <span>New</span>
+
+      <img src="https://www.apple.com/v/watch/home/u/images/overview/watch_nav_hermes__b1zeoxbn0df6_large.svg" />
+      <a href="#">Apple Watch<br />Hermès</a>
+      <span>New</span>
+
+      <img src="https://www.apple.com/v/watch/home/u/images/overview/watch_nav_series_2__bk595ih4bliu_large.svg" />
+      <a href="#">Apple Watch<br />Edition</a>
+      <span>New</span>
+
+      <img src="https://www.apple.com/v/watch/home/u/images/overview/watch_nav_edition__botzv6l1ftua_large.svg" />
+      <a href="#">Apple Watch<br />Series 3</a>
+
+      <img src="https://www.apple.com/v/watch/home/u/images/overview/watch_nav_compare__bjddtmfseahe_large.svg" />
+      <a href="#">Compare</a>
+
+      <img src="https://www.apple.com/v/watch/home/u/images/overview/watch_nav_bands__f5qi8icu6suq_large.svg" />
+      <a href="#">Bands</a>
+
+      <img src="https://www.apple.com/v/watch/home/u/images/overview/watch_nav_airpods__gdoguo6cstua_large.svg" />
+      <a href="#">AirPods</a>
+
+      <img src="https://www.apple.com/v/watch/home/u/images/overview/watch_nav_accessories__fix8lwwxvtu2_large.svg" />
+      <a href="#">Accessories</a>
+
+      <img src="https://www.apple.com/v/watch/home/u/images/overview/watch_nav_watch_os__fctkp231ik6e_large.svg" />
+      <a href="#">WatchOS</a>
+    </div>
   );
 }
 
