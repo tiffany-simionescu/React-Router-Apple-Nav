@@ -188,7 +188,26 @@ export function Tv() {
 
 export function Music() {
   return (
-    <div className="sub-nav"></div>
+    <div className="sub-nav">
+      <img src="https://www.apple.com/v/music/i/images/overview/icons/apple_music_large.svg" />
+      <a href="#">Apple Music</a>
+
+      <img src="https://www.apple.com/v/music/i/images/overview/icons/homepod_icon_large.svg" />
+      <a href="#">HomePod</a>
+
+      <img src="https://www.apple.com/v/music/i/images/overview/icons/airpods_icon_large.svg" />
+      <a href="#">AirPods</a>
+
+      <img src="https://www.apple.com/v/music/i/images/overview/icons/ipod_touch_light_large.svg" />
+      <a href="#">iPod touch</a>
+      <span>New</span>
+
+      <img src="https://www.apple.com/v/music/i/images/overview/icons/accessories_large.svg" />
+      <a href="#">Music Accessories</a>
+
+      <img src="https://www.apple.com/v/music/i/images/overview/icons/gift_cards_large.svg" />
+      <a href="#">Gift Cards</a>
+    </div>
   );
 }
 
