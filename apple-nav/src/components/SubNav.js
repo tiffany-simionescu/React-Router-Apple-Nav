@@ -53,13 +53,71 @@ export function Mac() {
 
 export function IPad() {
   return (
-    <div className="sub-nav"></div>
+    <div className="sub-nav">
+      <img src="https://www.apple.com/v/ipad/home/au/images/chapternav/ipadpro_light__dxq7nxjgsd2e_large.svg" />
+      <a href="#">iPad Pro</a>
+
+      <img src="https://www.apple.com/v/ipad/home/au/images/chapternav/ipadair_light__gan6yfrffc66_large.svg" />
+      <a href="#">iPad Air</a>
+      
+      <img src="https://www.apple.com/v/ipad/home/au/images/chapternav/ipad_light__expohijp19si_large.svg" />
+      <a href="#">iPad</a>
+      <span>New</span>
+
+      <img src="https://www.apple.com(/v/ipad/home/au/images/chapternav/ipadmini_light__bxpulkud30s2_large.svg" />
+      <a href="#">iPad mini</a>
+
+      <img src="https://www.apple.com/v/ipad/home/au/images/chapternav/ipad_comp_light__f80dzq6i8sq6_large.svg" />
+      <a href="#">Compare</a>
+
+      <img src="https://www.apple.com/v/ipad/home/au/images/chapternav/apple_pencil_light__e9zorbynwqie_large.svg" />
+      <a href="#">Apple Pencil</a>
+
+      <img src="https://www.apple.com/v/ipad/home/au/images/chapternav/keyboard_light__cjbr6d6i2vbm_large.svg" />
+      <a href="#">Smart Keyboard</a>
+
+      <img src="https://www.apple.com/v/ipad/home/au/images/chapternav/ipad_acc_light__ebtftz3r2rwy_large.svg" />
+      <a href="#">Accessories</a>
+
+      <img src="https://www.apple.com/v/ipad/home/au/images/chapternav/ipados_light__f5xv7yr98tm6_large.svg" />
+      <a href="#">iPadOS</a>
+    </div>
   );
 }
 
 export function IPhone() {
   return (
-    <div className="sub-nav"></div>
+    <div className="sub-nav">
+      <img src="https://www.apple.com/v/iphone/home/ac/images/chapternav/iphone_11_pro_dark__cchxb3bv66vm_large.svg" />
+      <a href="#">iPhone 11 Pro</a>
+      <span>New</span>
+
+      <img src="https://www.apple.com/v/iphone/home/ac/images/chapternav/iphone_11_dark__exagpxb8zh4y_large.svg" />
+      <a href="#">iPhone 11</a>
+      <span>New</span>
+
+      <img src="https://www.apple.com/v/iphone/home/ac/images/chapternav/iphone_xr_dark__gmkx1gdvqqum_large.svg" />
+      <a href="#">iPhone X<span className="small-r">R</span></a>
+      {/* Make the r smaller */}
+
+      <img src="https://www.apple.com/v/iphone/home/ac/images/chapternav/iphone_8_dark__d4f1b8j5cwia_large.svg" />
+      <a href="#">iPhone 8</a>
+
+      <img src="https://www.apple.com/v/iphone/home/ac/images/chapternav/iphone_comp_dark__ganfgd3pa9m6_large.svg" />
+      <a href="#">Compare</a>
+
+      <img src="https://www.apple.com/v/iphone/home/ac/images/chapternav/iphone_apple_card_dark__fsk0oaya7eqi_large.svg" />
+      <a href="#">Apple Card</a>
+
+      <img src="https://www.apple.com/v/iphone/home/ac/images/chapternav/iphone_airpods_dark__b5yw8pv4m4z6_large.svg" />
+      <a href="#">AirPods</a>
+
+      <img src="https://www.apple.com/v/iphone/home/ac/images/chapternav/iphone_acc_dark__b5fvf10sbhci_large.svg" />
+      <a href="#">Accessories</a>
+
+      <img src="https://www.apple.com/v/iphone/home/ac/images/chapternav/iphone_ios_dark__bb9g9sts3q76_large.svg" />
+      <a href="#">iOS 13</a>
+    </div>
   );
 }
 
