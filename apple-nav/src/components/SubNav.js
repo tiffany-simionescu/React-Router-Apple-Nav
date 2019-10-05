@@ -162,7 +162,27 @@ export function Watch() {
 
 export function Tv() {
   return (
-    <div className="sub-nav"></div>
+    <div className="sub-nav">
+      <img src="https://www.apple.com/v/tv/home/h/images/home/apple_tv_app_dark__blle10nnpq3m_large.svg" />
+      <a href="#">Apple TV app</a>
+      <span>New</span>
+
+      <img src="https://www.apple.com/v/tv/home/h/images/home/apple_tv_plus_dark__fntbqaxjuouy_large.svg" />
+      <a href="#">Apple TV+</a>
+      <span>New</span>
+
+      <img src="https://www.apple.com/v/tv/home/h/images/home/apple_tv_dark__ern1bz8tkwqe_large.svg" />
+      <a href="#">Apple TV 4K</a>
+
+      <img src="https://www.apple.com/v/tv/home/h/images/home/apple_tv_dark__ern1bz8tkwqe_large.svg" />
+      <a href="#">Apple TV HD</a>
+
+      <img src="https://www.apple.com/v/tv/home/h/images/home/airplay_dark__dqiw3rzeujma_large.svg" />
+      <a href="#">AirPlay</a>
+
+      <img src="https://www.apple.com/v/tv/home/h/images/home/accessories_dark__dybfk40y28om_large.svg" />
+      <a href="#">Accessories</a>
+    </div>
   );
 }
 
