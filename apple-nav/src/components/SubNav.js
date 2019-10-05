@@ -214,17 +214,36 @@ export function Music() {
 export function Support() {
   return (
     <div className="sub-nav"></div>
+    // There are no sub links here
   );
 }
 
 export function SearchBar() {
   return (
     <div className="sub-nav"></div>
+    // There are no sub links here
   );
 }
 
 export function ShoppingCart() {
   return (
-    <div className="sub-nav"></div>
+    <div className="sub-nav">
+      <p>Your Bag is empty</p>
+
+      <img src="https://www.apple.com/ac/globalnav/4/en_US/assets/ac-store/bag.svg" />
+      <a href="#">Bag</a>
+
+      <img src="https://www.apple.com/ac/globalnav/4/en_US/assets/ac-store/favorites.svg" />
+      <a href="#">Favorites</a>
+
+      <img src="https://www.apple.com/ac/globalnav/4/en_US/assets/ac-store/orders.svg" />
+      <a href="#">Orders</a>
+
+      <img src="https://www.apple.com/ac/globalnav/4/en_US/assets/ac-store/account.svg" />
+      <a href="#">Account</a>
+
+      <img src="https://www.apple.com/ac/globalnav/4/en_US/assets/ac-store/singIn.svg" />
+      <a href="#">Sign in</a>
+    </div>
   );
 }
